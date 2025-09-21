@@ -1,73 +1,184 @@
-# Welcome to your Lovable project
+SportShodh – National Sports Talent Platform
 
-## Project info
+Team: Syntax Sentries
+Event: Smart India Hackathon (SIH) 2025
 
-**URL**: https://lovable.dev/projects/79989684-427b-4970-a309-6fde80c8d16e
+📌 Project Overview
 
-## How can I edit this code?
+SportShodh is a pan-India digital platform designed to identify, nurture, and showcase sports talent, especially from rural and semi-urban areas. The platform leverages AI-powered analytics, gamification, and multilingual accessibility to create a professional, inclusive, and engaging sports ecosystem.
 
-There are several ways of editing your application.
+Key Objectives:
 
-**Use Lovable**
+Discover hidden sports talent across India.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/79989684-427b-4970-a309-6fde80c8d16e) and start prompting.
+Provide a centralized dashboard for athletes, coaches, and administrators.
 
-Changes made via Lovable will be committed automatically to this repo.
+Promote digital governance in sports aligned with Government of India initiatives.
 
-**Use your preferred IDE**
+Enable data-driven performance analytics to guide talent development.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Facilitate community engagement, competitions, and recognition through gamified features.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Theme & Branding
 
-Follow these steps:
+Primary Color Palette:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Color	Hex	Usage	Emotion / Reason
+Energetic Blue	#207DEF	Main accents, CTAs, progress bars	Trust, energy, digital India
+Dynamic Green	#43A047	Success states, highlights	Growth, achievement, sports
+Bright White	#FFFFFF	Backgrounds, cards	Simplicity, clarity, accessibility
+Vibrant Yellow	#FFEB3B	Badges, alerts, focus elements	Excitement, visibility
+Neutral Gray	#757575	Secondary text, muted elements	Balance, legibility
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+UX Tip: Blue/Green dominate CTAs and success states, White for clarity, Yellow sparingly for gamification.
 
-# Step 3: Install the necessary dependencies.
-npm i
+🏗️ Features
+1️⃣ Public Dashboard
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Real-time display of athlete stats and achievements.
+
+Filters by sport, region, and skill level.
+
+Highlighted achievements with badges and leaderboards.
+
+2️⃣ Athlete Registration
+
+Multilingual registration forms (English + regional languages).
+
+Video and image uploads for performance evaluation.
+
+Option for verified credentials and social media links.
+
+3️⃣ Admin & Coach Dashboard
+
+Approve and manage athlete submissions.
+
+Track talent analytics with charts, leaderboards, and reports.
+
+Send notifications, feedback, and updates.
+
+4️⃣ Media & Community Feed
+
+Highlight videos, stories, and interviews of athletes.
+
+Social engagement: like, share, comment on updates.
+
+Gamified achievements and progression updates.
+
+5️⃣ Analytics & Insights
+
+AI-powered performance analytics and skill evaluation.
+
+Visual dashboards with growth metrics per state, sport, and athlete.
+
+Leaderboards and trending athlete highlights.
+
+6️⃣ Innovative Features
+
+Multi-modal access: Web + PWA + Mobile-ready.
+
+Gamification: badges, points, levels for talent progression.
+
+Community challenges and national-level competitions.
+
+Real-time notifications via push, email, or SMS.
+
+🖥️ Tech Stack
+Layer	Technology
+Frontend	React.js / Next.js, TailwindCSS
+Backend	Node.js + Express / Django
+Database	PostgreSQL / MongoDB
+Storage	AWS S3 (videos/images)
+Authentication	Firebase Auth / JWT
+Analytics	Google Analytics + Custom Dashboards
+Multilingual Support	i18n / Next.js Localization
+📱 Responsive Design & Accessibility
+
+Mobile-first design: supports 320px – 480px screens.
+
+Tablet & desktop responsive layouts with media queries.
+
+WCAG-compliant contrast ratios for accessibility.
+
+Buttons and CTAs are touch-friendly (≥44x44px).
+
+⚙️ Installation & Setup
+
+Prerequisites:
+
+Node.js (v18+), npm/yarn
+
+PostgreSQL / MongoDB
+
+AWS account (for storage, optional)
+
+Steps:
+
+Clone the repository:
+
+git clone https://github.com/syntaxsentries/SportShodh.git
+cd SportShodh
+
+
+Install dependencies:
+
+npm install
+
+
+Configure environment variables:
+
+DATABASE_URL=your_database_url
+JWT_SECRET=your_jwt_secret
+AWS_ACCESS_KEY=your_aws_key
+AWS_SECRET_KEY=your_aws_secret
+
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Visit: http://localhost:3000 to access the platform.
 
-**Use GitHub Codespaces**
+🌐 Multilingual Support
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+English + Hindi + Regional Languages (future extensible).
 
-## What technologies are used for this project?
+Detects user’s browser language automatically.
 
-This project is built with:
+Ensures consistent UI across languages.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🧩 Roadmap & Future Enhancements
 
-## How can I deploy this project?
+AI-powered performance scoring for all sports.
 
-Simply open [Lovable](https://lovable.dev/projects/79989684-427b-4970-a309-6fde80c8d16e) and click on Share -> Publish.
+Mobile app integration (iOS & Android).
 
-## Can I connect a custom domain to my Lovable project?
+Offline data capture for rural areas.
 
-Yes, you can!
+Integration with government sports initiatives.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Advanced gamification: competitions, levels, points exchange.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+💡 Contribution Guidelines
+
+Fork the repository and create a feature branch:
+
+git checkout -b feature/your-feature
+
+
+Commit changes:
+
+git commit -m "Add new feature"
+
+
+Push to branch:
+
+git push origin feature/your-feature
+
+
+Create a pull request with description of changes.
+
+📜 License
+
+This project is licensed under MIT License – see LICENSE.md for details.
