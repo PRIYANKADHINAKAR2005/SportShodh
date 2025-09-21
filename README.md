@@ -1,6 +1,6 @@
-SportShodh – National Sports Talent Platform
+**SportShodh – National Sports Talent Platform**
 
-Team: Syntax Sentries
+**Team: Syntax Sentries**
 Event: Smart India Hackathon (SIH) 2025
 
 📌 Project Overview
@@ -33,6 +33,7 @@ Neutral Gray	#757575	Secondary text, muted elements	Balance, legibility
 UX Tip: Blue/Green dominate CTAs and success states, White for clarity, Yellow sparingly for gamification.
 
 🏗️ Features
+
 1️⃣ Public Dashboard
 
 Real-time display of athlete stats and achievements.
@@ -182,3 +183,4 @@ Create a pull request with description of changes.
 📜 License
 
 This project is licensed under MIT License – see LICENSE.md for details.
+
